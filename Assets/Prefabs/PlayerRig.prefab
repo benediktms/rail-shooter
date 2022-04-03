@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8590421541562073512}
   - component: {fileID: 5171685704447779033}
+  - component: {fileID: 510500988}
   m_Layer: 0
   m_Name: PlayerRig
   m_TagString: Untagged
@@ -135,6 +136,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &510500988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590421541562073513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14f7a6b0a1d84eb88fe76311457b7b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3059814689933917425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144,7 +157,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1105741334745168, guid: dc92f6c59177d3b48834d869261d80b1, type: 3}
       propertyPath: m_Name
-      value: StarSparrow3
+      value: PlayerShip
       objectReference: {fileID: 0}
     - target: {fileID: 4157301896411390, guid: dc92f6c59177d3b48834d869261d80b1, type: 3}
       propertyPath: m_RootOrder
